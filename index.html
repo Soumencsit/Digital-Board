@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="top">
+            <button class="clear">Clear</button>
+            <p>Digital Board</p>
+            <button class="eraserButton">Erase</button>
+            
+            <!-- <div class="eraserButton">eraser</div> -->
+        </div>
+        <div class="middle">
+            <div id="canva">
+                <!-- width="60vw" height="100vh"  -->
+                <canvas id="myCanvas" "></canvas>
+            </div>
+            
+            <div class="component">
+               
+
+                <div class="bordColor">
+                    <p> Board</p>
+                    <div class="b-color" id="#000000" style="background-color: #000000;"></div>
+                    <div class="b-color" id="#101430" style="background-color: #101430;"></div>
+                    <div class="b-color" id="#c3c3cd" style="background-color: #c3c3cd;"></div>
+                </div>
+
+                <div class="pen">
+                    <p>Pen</p>
+                    <div class="color" id="#A020F0" style="background-color:purple;"></div>
+                    <div class="color" id="#00FFFF" style="background-color: aqua;"></div>
+                    <div class="color" id="#FFFF00" style="background-color: yellow;"></div>
+                    <div class="color" id="#bad" style="background-color: #bad;"></div>
+                    <div class="color" id="#FFA500" style="background-color: orangered;"></div>
+                </div>
+              
+              
+               
+            </div>
+            
+        </div>
+       
+    </div>
+   
+
+    
+</body>
+
+
+<script src="script.js"></script>
+</html>
